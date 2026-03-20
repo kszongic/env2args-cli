@@ -1,0 +1,21 @@
+{
+  "name": "env2args-cli",
+  "version": "1.0.0",
+  "description": "Convert .env files or environment variables into command-line arguments (--key value)",
+  "main": "index.js",
+  "bin": {
+    "env2args": "index.js"
+  },
+  "scripts": {
+    "test": "node index.js --help"
+  },
+  "keywords": ["env", "args", "arguments", "cli", "dotenv", "convert", "flags", "options"],
+  "author": "kszongic",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kszongic/env2args-cli"
+  },
+  "homepage": "https://github.com/kszongic/env2args-cli#readme",
+  "files": ["index.js", "README.md", "LICENSE"]
+}
